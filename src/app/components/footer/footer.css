@@ -1,6 +1,8 @@
 .companyInfo{
     display: flex;
     width: 100%;
+    border-top: 2px solid orange ;
+    padding-top: 62px;
 }
 .logoFooter{
     width: 18.81%;
@@ -39,15 +41,85 @@
 /* .syllkaSocialNetwork{
     
 } */
-
-.garantBlok{
+.footerSetting{
+    margin-top: 21px;
     display: flex;
+    flex-wrap: wrap;
+}
+.garantBlok{
+    width: 80.73%;
+}
+.garantBlokWapper{
+    display: flex;
+    max-width: 600px;
     align-items: center;
-    max-width: 550px;
-    margin-left: 300px;
+    margin: 0 auto;
 }
 .gabestoreText{
     color: #FBBB43;
     font-size: 14px;
     margin-left: 8px;
+}
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19.27%;
+}
+/* .language{
+    display: flex;
+    flex-wrap: nowrap;
+} */
+.languageText{
+    color: #5A5858;
+    margin-right: 8px;
+    padding: 4px;
+    text-align: center;
+    border: none;
+    border: 2px solid #141111 ;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.languageText:active{
+    text-align: center;
+    color: #fff;
+    background-color: #594420;
+    border: 2px solid #FBBB43 ;
+    border-radius: 8px;
+    padding: 4px;
+}
+.currencyText{
+    color: #5A5858;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 82px;
+}
+.copyrightText{
+    color: #5A5858;
+}
+.privacyPolicy{
+    color: #5A5858;
+    /* margin: 0 auto; */
+    /* margin-left: 59px; */
+}
+.paymentSystem{
+    width: 395px;
+    margin: 82px auto 39px auto;
+    display: flex;
+    /* margin-top: 82px; */
+    /* justify-content: space-around; */
+}
+.paymentSystemIcon{
+    margin: 0 auto;
+}
+.development{
+    width: 20%;
+    margin-bottom: 39px;
+    margin-top: 82px;
+}
+.developmentText{
+    color: #5A5858;
 }

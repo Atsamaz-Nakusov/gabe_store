@@ -1,0 +1,48 @@
+.blog{
+    width: 100%;
+}
+.mainСell{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    border: 1px solid red;
+}
+.secondaryCell{
+    width: 33.33333%;
+    border: 1px solid green;
+    margin: 24px;
+}
+.imgNewsBlok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgNews{
+    width: 100%;
+    border-radius: 15px;
+}
+.InfoBlog{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+
+}
+.overviewButton{
+    background-color: #362A18;
+    color: #86652A;
+    padding: 4px;
+    border:1px solid #86652A;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.overviewButton:active{
+    background-color: #ff9900;
+    color: #fff;
+    padding: 4px;
+    border:1px solid #86652A;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.time{
+    color: #898888;
+}    
