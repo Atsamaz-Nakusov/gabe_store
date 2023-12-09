@@ -1,0 +1,53 @@
+.companyInfo{
+    display: flex;
+    width: 100%;
+}
+.logoFooter{
+    width: 18.81%;
+    margin-right: 60px;
+}
+/* .footerText{} */
+.footerUlText{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    list-style-type: none;
+}
+.footerLiText{
+    width: 180px;
+    margin-bottom: 24px;
+    margin-right: 3%;
+}
+.syllkaText{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footerText{
+    width: 64.7%;
+}
+.footerSocialNetwork{
+    width: 16.72%;
+}
+.socialNetworkUl{
+    display: flex;
+    list-style-type: none;
+}
+.socialNetworkLi{
+    margin: 0 auto;
+}
+/* .syllkaSocialNetwork{
+    
+} */
+
+.garantBlok{
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    margin-left: 300px;
+}
+.gabestoreText{
+    color: #FBBB43;
+    font-size: 14px;
+    margin-left: 8px;
+}
