@@ -1,15 +1,19 @@
 .blog{
     width: 100%;
+    margin-bottom: 80px;
+}
+.titleBlog{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
 }
 .mainСell{
     display: flex;
     justify-content: space-around;
     /* margin: 0 auto; */
-    border: 1px solid red;
 }
 .secondaryCell{
     width: 33.33333%;
-    border: 1px solid green;
     margin: 24px;
 }
 .imgNewsBlok{
@@ -46,3 +50,35 @@
 .time{
     color: #898888;
 }    
+.news{
+    margin-top: 20px;
+    color: #fff;
+    min-height: 48px;
+}
+.blokComents{
+    margin-top: 8px;
+}
+.coment{
+    color: #a5a5a5;
+}
+.blokViews{
+    display: flex;
+    margin-top: 8px;
+}
+.views{
+    margin-right: 16px;
+    margin-left: 4px;
+    color: #898888;
+}
+.pablikText{
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    height: 40px;
+    margin: 0 auto;
+    color: black;
+    background-color: #ff9900;
+    border-radius: 11px;
+    padding-top: 11px;
+    font-weight: 700;
+}

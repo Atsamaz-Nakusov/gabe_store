@@ -56,10 +56,10 @@ export default function Blog() {
             <p className="time">10.12.2023</p>
           </div>
           <h3 className="news">
-            Какая студия может экранизировать Borderlands?
+            17 тех самых локализаций названий от «Фаргуса»
           </h3>
           <span className="blokComents">
-            <p className="coment">И что с этим делать ?</p>
+            <p className="coment">Поностальгируем по ушедшей эпохе</p>
             <div className="blokViews">
               <Image src="/views.svg" width={21} height={17} alt="views" />
               <p className="views">1500</p>
@@ -89,11 +89,11 @@ export default function Blog() {
             </a>
             <p className="time">10.12.2023</p>
           </div>
-          <h3 className="news">
-            Какая студия может экранизировать Borderlands?
-          </h3>
+          <h3 className="news">Здравствуй! Угадаешь игру по мини-карте?</h3>
           <span className="blokComents">
-            <p className="coment">И что с этим делать ?</p>
+            <p className="coment">
+              Геймерские картографические загадки часть II
+            </p>
             <div className="blokViews">
               <Image src="/views.svg" width={21} height={17} alt="views" />
               <p className="views">1500</p>
@@ -108,6 +108,7 @@ export default function Blog() {
           </span>
         </div>
       </div>
+      <button className="pablikText">ВСЕ ПУБЛИКАЦИИ</button>
     </div>
   );
 }
