@@ -1,0 +1,15 @@
+
+.blokPromo{
+    max-width: 1600px;
+}
+.promoLogo{
+    max-width: 100%;
+    /* z-index: 0; */
+    background-image: linear-gradient(direction, 
+    color-stop1, color-stop2);
+}
+/* .sdssd{
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+}  */

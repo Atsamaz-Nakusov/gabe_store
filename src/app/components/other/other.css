@@ -1,0 +1,29 @@
+.blokOther{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    /* flex-wrap: wrap; */
+}
+.blokOtherMin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 255px 1 1;
+    height: 184px;
+    /* border: 1px solid #FBBB43; */
+    border: 2px solid transparent;
+    border-image: linear-gradient(#1A1613 , #FBBB43);
+    border-radius: 12px;
+    border-image-slice: 1;
+    margin-right: 16px;
+    align-items: center;
+}
+.blokOtherMin a {
+    margin-bottom: 31px;
+    color: #FBBB43;
+    width: 50%;
+    text-align: center;
+}
+.iconOther{
+    margin-top: -25px;
+}

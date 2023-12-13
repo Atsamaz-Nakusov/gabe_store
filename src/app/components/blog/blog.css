@@ -1,5 +1,7 @@
 .blog{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1176px;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 .titleBlog{

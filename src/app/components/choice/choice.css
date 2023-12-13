@@ -6,9 +6,9 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 17px;
 }
-.minBlock{
+/* .minBlock{
 
-}
+} */
 .titleGame{
     text-transform: uppercase;
 }

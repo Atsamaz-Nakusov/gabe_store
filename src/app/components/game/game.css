@@ -1,0 +1,65 @@
+.blokGame{
+    max-width: 1176px;
+    margin: 0 auto;
+}
+.listButtonGame{
+    display: flex;
+    justify-content: center;
+}
+.buttonGameCategor{
+    margin-right: 24px;
+    background-color: #141111;
+    color: #fff;
+    border: 2px solid #141111;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 4px;
+}
+.buttonGameCategor:active{
+    border: 2px solid #FBBB43;
+    border-radius: 4px;
+    background-color: #594420;
+}
+.listGame{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.listGameMin{
+    flex: 216px 0 1;
+    border: 1px solid #727070;
+    border-radius: 11px;
+    margin-bottom: 40px;
+}
+.textBasket{
+    position: absolute;
+    margin: 120px 65px;
+    padding: 6px;
+    border: none;
+    border-radius: 11px;
+    color: black;
+    background-color: #FBBB43;
+}
+/* .textBasket:focus{
+    display: block;
+} */
+.imgGame{
+    border-radius: 11px;
+    width: 100% ;
+}
+.h5TitleGame{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.blokSale{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 4px;
+}
+.discount{
+    background-color: #FBBB43;
+    color: #141111;
+    font-weight: 700;
+    border-radius: 6px;
+}
