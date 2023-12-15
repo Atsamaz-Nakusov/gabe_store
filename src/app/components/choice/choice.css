@@ -1,15 +1,50 @@
 /* .choice{} */
 /* .titleChoice{} */
-.bigBlock{
+/* .bigBlock{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 17px;
-}
+} */
 /* .minBlock{
 
 } */
-.titleGame{
-    text-transform: uppercase;
-}
+
 /* .price{} */
+.bigBlock {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+  }
+  
+  .minBlock {
+    width: 100%;
+    height: auto;
+    background-Color: red
+  }
+  .sadsad{
+    position: absolute;
+  }
+  .choiceImgBig{
+    z-index: 1;
+  }
+  .titleGame{
+    text-transform: uppercase;
+    z-index: 222;
+}
+  .minBlock:nth-child(1) {
+    grid-row: span 2; 
+    height: 480px;
+  }
+  .minBlock:nth-child(2) {
+    height: 220px;
+  }
+  .minBlock:nth-child(3) {
+    grid-row: span 2; 
+    height: 480px;
+  }
+  
+  .minBlock:nth-child(4) {
+    grid-row: span 2;
+    height: 220px;
+  }
