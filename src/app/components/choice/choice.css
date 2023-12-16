@@ -20,7 +20,7 @@
   .minBlock {
     width: 100%;
     height: auto;
-    background-Color: red
+    background-image:url("/gradient.svg") ;
   }
   .sadsad{
     position: absolute;
