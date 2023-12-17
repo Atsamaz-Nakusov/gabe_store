@@ -1,34 +1,27 @@
 .blokPromo{
-    max-width: 1600px;
-    position: relative;
-}
-.promoLogogradient{
-    max-width: 1600px;
-    position: absolute;
-    max-height: 100%;
-    margin-top: 50px;
-}
-.promoLogoContainer{
     width: 100vw;
-    position: absolute;
+    position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.promoLogo{
-    max-width: 100%;
-    /* z-index: 0; */
-    background-image: linear-gradient()
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(0, 0, 0, 0.9)
+  ), url("/promo.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 75px;
 }
 .promoContent{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    position: relative;
-    width: 100%;
+    max-width: 1372px;
+    padding: 0 15px;
     height: 980px;
+    margin: 0 auto;
     color: black;
-    z-index: 1;
 }
 .blockPreorder{
     flex: 30% 1 1;
@@ -36,10 +29,86 @@
     color: #fff;
 }
 .h6Order{
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
+    margin-bottom: 11px;
 }
 .h5Order{
     font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.pOrder{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.dataP{
+    display: flex;
+    max-width: 223px;
+    padding: 4px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid#fff;
+    margin-bottom: 52px;
+}
+.dataPNum{
+    font-weight: 100;
+    margin-left: 2px;
+}
+.blockPraice{
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blockPraiceButton{
+    font-weight: 700;
+    border: none;
+    border-radius: 11px;
+    padding: 9px;
+    background-color: #FBBB43;
+    color: #000;
+}
+.blockPraiceP{
+    font-size: 24px;
+}
+.blockPraiceSale{
+    font-weight: 900;
+    background-color: #FBBB43;
+    color: #000;
+    padding: 4px 8px 4px 8px;
+    border: none;
+    border-radius: 11px;
+}
+.blockSalesHits{
+    margin-bottom: 42px;
+    display: flex;
+    color: #fff;
+}
+.blockSalesHitsTitle{
+    height: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: rotate(270deg);
+    margin-right: -30px;
+    margin-top: 50px;
+}
+.blockCardsBig{
+    display: flex;
+    justify-content: space-between;
+    width: 523px;
+}
+.blockCardsMin{
+    max-width: 164px;
+}
+.imgCards{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1));
+    z-index: 1;
 }

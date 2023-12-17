@@ -1,7 +1,11 @@
 header {
+    position: absolute;
     margin-top: 40px;
+    z-index: 1;
 }
 .wrapper{
+    width: 1372px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -16,7 +20,8 @@ header {
     height: 32px;
     font-family: Lora;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 11px;
+    text-transform: uppercase   ;
     color: #fff;
     border: 2px solid #fff;
     border-radius: 110px;
@@ -36,6 +41,12 @@ header {
     background-color:#8B8989;
     border-radius: 29px;
     padding: auto;
+}
+.imgChoice{
+    border-radius: 100px;
+    border: none;
+    margin-right: 6px;
+    background: transparent;
 }
 .searchGameInput{
     width: 95%;

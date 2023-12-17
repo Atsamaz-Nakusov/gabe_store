@@ -1,5 +1,5 @@
 .blokGame{
-    max-width: 1176px;
+    padding: 0 132px;
     margin: 0 auto;
 }
 .listButtonGame{
@@ -27,7 +27,7 @@
     justify-content: space-between;
 }
 .listGameMin{
-    flex: 216px 0 1;
+    flex: 19% 0 1;
     border: 1px solid #727070;
     border-radius: 11px;
     margin-bottom: 40px;

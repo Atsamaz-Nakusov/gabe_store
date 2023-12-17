@@ -13,7 +13,7 @@ const Header = () => {
           </button>
           <form action="" className="searchForm">
             <input type="text" className="searchGameInput" />
-            <button>
+            <button className="imgChoice">
               <Image src="/Vector.svg" width={20} height={20} alt="vector" />
             </button>
           </form>

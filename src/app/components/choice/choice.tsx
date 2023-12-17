@@ -8,15 +8,6 @@ export default function Сhoice() {
       <div className="BlokSlaider">
         <div className="bigBlock">
           <div className="minBlock">
-            {/* <div className="sadsad">
-              <Image
-                className="choiceImgBig"
-                src="/image1.1.jpg"
-                width={580}
-                height={480}
-                alt="Tom Clancys"
-              />
-            </div> */}
             <h4 className="titleGame">
               The Elder Scrolls: Skyrim Legendary Edition
             </h4>

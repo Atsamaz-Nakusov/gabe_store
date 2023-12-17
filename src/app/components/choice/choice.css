@@ -11,40 +11,66 @@
 } */
 
 /* .price{} */
-.bigBlock {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-  }
-  
-  .minBlock {
-    width: 100%;
-    height: auto;
-    background-image:url("/gradient.svg") ;
-  }
-  .sadsad{
-    position: absolute;
-  }
-  .choiceImgBig{
-    z-index: 1;
-  }
-  .titleGame{
-    text-transform: uppercase;
-    z-index: 222;
+.choice{
+  padding: 0 132px;
 }
-  .minBlock:nth-child(1) {
-    grid-row: span 2; 
-    height: 480px;
-  }
-  .minBlock:nth-child(2) {
-    height: 220px;
-  }
-  .minBlock:nth-child(3) {
-    grid-row: span 2; 
-    height: 480px;
-  }
+.titleChoice{
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.bigBlock {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+}
   
-  .minBlock:nth-child(4) {
-    grid-row: span 2;
-    height: 220px;
-  }
+.minBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sadsad{
+  position: absolute;
+}
+.titleGame{
+  font-size: 24px;
+  max-width: 280px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  text-transform: uppercase;
+}
+.price{
+  margin-bottom: 37px;
+  margin-left: 32px;
+  font-size: 24px;
+}
+.minBlock:nth-child(1) {
+  grid-row: span 2; 
+  height: 480px;
+  background-image:url("/image1.1.jpg") ;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.minBlock:nth-child(2) {
+  height: 220px;
+  background-image:url("/image1.2.jpg") ;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.minBlock:nth-child(3) {
+  grid-row: span 2; 
+  height: 480px;
+  background-image:url("/image1.4.jpg") ;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+  
+.minBlock:nth-child(4) {
+  grid-row: span 2;
+  height: 220px;
+  background-image:url("/image1.3.jpg") ;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
