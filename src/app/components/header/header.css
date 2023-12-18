@@ -1,11 +1,11 @@
 header {
+    width: 95%;
     position: absolute;
     margin-top: 40px;
     z-index: 1;
 }
 .wrapper{
-    width: 1372px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     display: flex;
     justify-content: space-between;
 }
@@ -85,3 +85,15 @@ header {
     padding-bottom: 7px;
     padding-top: 8px;
 }
+.buttonEnter:hover{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 600px) {
+    .buttonGame{
+        display: none;
+    }
+    .searchForm {display: none;}
+  }

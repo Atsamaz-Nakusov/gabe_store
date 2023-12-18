@@ -73,7 +73,35 @@ export default function Promo() {
               </div>
             </div>
           </div>
-          <div>слайдер</div>
+          <div className="slaider">
+            <div>
+              <Image
+                className="upArrow"
+                src="/up-arrow.svg"
+                width={32}
+                height={32}
+                alt="arrow"
+              />
+            </div>
+            <div>
+              <Image
+                className="pole"
+                src="/row.svg"
+                width={1}
+                height={195}
+                alt="arrow"
+              />
+            </div>
+            <div>
+              <Image
+                className="botArrow"
+                src="/up-arrow.svg"
+                width={32}
+                height={32}
+                alt="arrow"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
