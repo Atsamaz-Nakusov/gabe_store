@@ -115,7 +115,15 @@
 .slaider{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 52px;
+}
+.stripe{
+    width: 1px;
+    height: 195px;
+    background-color: #fff;
+    margin: 17px 0;
 }
 /* .pole{
     margin-top: 17px;

@@ -12,7 +12,9 @@
 
 /* .price{} */
 .choice{
-  padding: 0 132px;
+  width: 1176px;
+  margin: 0 auto;
+  /* padding: 0 132px; */
 }
 .titleChoice{
   font-size: 36px;

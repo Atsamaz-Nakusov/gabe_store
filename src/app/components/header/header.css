@@ -1,5 +1,5 @@
 header {
-    width: 95%;
+    width: 92.5%;
     position: absolute;
     margin-top: 40px;
     z-index: 1;
@@ -80,6 +80,8 @@ header {
     border: 2px solid #fff ;
     background-color: rgba(0, 0, 0, 0);
     font-size: 13px;
+    line-height: auto;
+    font-weight: 700;
     color: #fff;
     border-radius: 110px;
     padding-bottom: 7px;

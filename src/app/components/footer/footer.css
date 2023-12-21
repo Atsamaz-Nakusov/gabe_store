@@ -123,3 +123,24 @@
 .developmentText{
     color: #5A5858;
 }
+@media (max-width: 686px){
+    .logoFooter{
+        width: 20%;
+        margin-right: 60px;
+    }
+    .footerText{
+        width: 40%;
+    }
+    .footerSocialNetwork{
+        width: 40%;
+    }
+    .footerSetting{
+        margin-top: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+}

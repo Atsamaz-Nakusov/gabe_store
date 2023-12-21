@@ -83,14 +83,14 @@ export default function Promo() {
                 alt="arrow"
               />
             </div>
-            <div>
-              <Image
+            <div className="stripe">
+              {/* <Image
                 className="pole"
                 src="/row.svg"
                 width={1}
                 height={195}
                 alt="arrow"
-              />
+              /> */}
             </div>
             <div>
               <Image

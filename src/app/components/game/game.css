@@ -1,5 +1,5 @@
 .blokGame{
-    padding: 0 132px;
+    max-width: 1176px;
     margin: 0 auto;
 }
 .listButtonGame{
@@ -11,7 +11,7 @@
     background-color: #141111;
     color: #fff;
     border: 2px solid #141111;
-    font-size: 13px;
+    font-size: 18px;
     text-transform: uppercase;
     padding: 4px;
 }
@@ -27,10 +27,12 @@
     justify-content: space-between;
 }
 .listGameMin{
-    flex: 19% 0 1;
+    /* width: 18.37%; */
+    flex: 216px 0 0;
     border: 1px solid #727070;
     border-radius: 11px;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 .textBasket{
     position: absolute;
@@ -41,25 +43,60 @@
     color: black;
     background-color: #FBBB43;
 }
-/* .textBasket:focus{
-    display: block;
-} */
 .imgGame{
     border-radius: 11px;
     width: 100% ;
 }
 .h5TitleGame{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -3%;
     margin-top: 4px;
-    margin-left: 4px;
+    margin-left: 8px;
 }
 .blokSale{
     display: flex;
     justify-content: space-between;
-    margin: 8px 4px;
+    margin: 4px 8px;
+}
+.sale{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
 }
 .discount{
     background-color: #FBBB43;
     color: #141111;
     font-weight: 700;
     border-radius: 6px;
+}
+@media (max-width: 709px) {
+    .listButtonGame{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttonGameCategor{
+        margin-right: 3%;
+        background-color: #141111;
+        color: #fff;
+        border: 2px solid #141111;
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 4px;
+        margin-bottom: 20px;
+    }
+    .listGame{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .listGameMin{
+        margin-left: 20px;
+    }
 }

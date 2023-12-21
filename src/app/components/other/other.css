@@ -1,6 +1,7 @@
 .blokOther{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 80px;
     /* flex-wrap: wrap; */
 }
@@ -8,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 255px 1 1;
+    flex: 200px 1 1;
     height: 184px;
     /* border: 1px solid #FBBB43; */
     border: 2px solid transparent;
@@ -17,11 +18,16 @@
     border-image-slice: 1;
     margin-right: 16px;
     align-items: center;
+    margin-bottom: 40px;
 }
 .blokOtherMin a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
     margin-bottom: 31px;
     color: #FBBB43;
-    width: 50%;
+    width: 90%;
     text-align: center;
 }
 .iconOther{
