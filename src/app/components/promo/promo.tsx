@@ -5,17 +5,48 @@ export default function Promo() {
   return (
     <div className="blokPromo">
       <div className="promoContent">
-        <div className="blockPreorder">
-          <h6 className="h6Order">ПРЕДЗАКАЗ</h6>
-          <h5 className="h5Order">borderlands 3</h5>
-          <p className="pOrder">Super Deluxe Edition</p>
-          <p className="dataP">
-            Осталось 329 дней, <p className="dataPNum">20.03.20</p>
-          </p>
-          <div className="blockPraice">
-            <button className="blockPraiceButton">В КОРЗИНУ</button>
-            <p className="blockPraiceP">3999 $</p>
-            <p className="blockPraiceSale">-30%</p>
+        <div className="blockPreorderBig">
+          <div className="slaider2">
+            <div>
+              <Image
+                className="upArrow"
+                src="/up-arrow.svg"
+                width={32}
+                height={32}
+                alt="arrow"
+              />
+            </div>
+            <div className="stripe">
+              {/* <Image
+                className="pole"
+                src="/row.svg"
+                width={1}
+                height={195}
+                alt="arrow"
+              /> */}
+            </div>
+            <div>
+              <Image
+                className="botArrow"
+                src="/up-arrow.svg"
+                width={32}
+                height={32}
+                alt="arrow"
+              />
+            </div>
+          </div>
+          <div className="blockPreorder">
+            <h6 className="h6Order">ПРЕДЗАКАЗ</h6>
+            <h5 className="h5Order">borderlands 3</h5>
+            <p className="pOrder">Super Deluxe Edition</p>
+            <p className="dataP">
+              Осталось 329 дней, <p className="dataPNum">20.03.20</p>
+            </p>
+            <div className="blockPraice">
+              <button className="blockPraiceButton">В КОРЗИНУ</button>
+              <p className="blockPraiceP">3999 $</p>
+              <p className="blockPraiceSale">-30%</p>
+            </div>
           </div>
         </div>
         <div className="blockSalesHits">
