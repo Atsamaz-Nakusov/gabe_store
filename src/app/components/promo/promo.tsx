@@ -22,16 +22,16 @@ export default function Promo() {
           <h6 className="blockSalesHitsTitle">хиты продаж</h6>
           <div className="blockCardsBig">
             <div className="blockCardsMin">
-              <button className="textBasket">В КОРЗИНУ</button>
+              {/* <button className="textBasket">В КОРЗИНУ</button> */}
               <Image
                 className="imgCards"
-                src="/img2.1.jpg"
-                width={214}
-                height={272}
+                src="/Group332.jpg"
+                width={164}
+                height={204}
                 alt="Tom Clancys"
               />
               <h5 className="h5TitleGame">
-                Tom Clancys Rainbow Six Siege Super Advanced Collectors
+                Grand Theft Auto V: Premium Online Edition + Megalodon Shark
               </h5>
               <div className="blokSale">
                 <p className="sale">1200 ₽</p>
@@ -39,16 +39,16 @@ export default function Promo() {
               </div>
             </div>
             <div className="blockCardsMin">
-              <button className="textBasket">В КОРЗИНУ</button>
+              {/* <button className="textBasket">В КОРЗИНУ</button> */}
               <Image
                 className="imgCards"
-                src="/img2.2.jpg"
-                width={214}
-                height={272}
+                src="/Group333.jpg"
+                width={164}
+                height={204}
                 alt="Tom Clancys"
               />
               <h5 className="h5TitleGame">
-                Tom Clancys Rainbow Six Siege Super Advanced Collectors
+                Grand Theft Auto V: Premium Online Edition + Megalodon Shark
               </h5>
               <div className="blokSale">
                 <p className="sale">1200 ₽</p>
@@ -56,16 +56,16 @@ export default function Promo() {
               </div>
             </div>
             <div className="blockCardsMin">
-              <button className="textBasket">В КОРЗИНУ</button>
+              {/* <button className="textBasket">В КОРЗИНУ</button> */}
               <Image
                 className="imgCards"
                 src="/img2.3.jpg"
-                width={214}
-                height={272}
+                width={164}
+                height={204}
                 alt="Tom Clancys"
               />
               <h5 className="h5TitleGame">
-                Tom Clancys Rainbow Six Siege Super Advanced Collectors
+                Grand Theft Auto V: Premium Online Edition + Megalodon Shark
               </h5>
               <div className="blokSale">
                 <p className="sale">1200 ₽</p>

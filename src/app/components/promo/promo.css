@@ -14,10 +14,11 @@
     margin-bottom: 75px;
 }
 .promoContent{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    max-width: 1372px;
+    max-width: 1440px;
     padding: 0 15px;
     height: 980px;
     margin: 0 auto;
@@ -25,7 +26,7 @@
 }
 .blockPreorder{
     flex: 30% 1 1;
-    margin-bottom: 200px;
+    margin-bottom: 124px;
     color: #fff;
 }
 .h6Order{
@@ -88,6 +89,7 @@
     color: #fff;
 }
 .blockSalesHitsTitle{
+    width: 170px;
     height: 20px;
     font-size: 15px;
     text-transform: uppercase;
@@ -99,18 +101,40 @@
 .blockCardsBig{
     display: flex;
     justify-content: space-between;
-    width: 523px;
+    width: 100%;
 }
 .blockCardsMin{
-    max-width: 164px;
+    width: 164px;
+    border: 1px solid transparent;
+    border: 1px solid #645D5D;
+    border-radius: 11px;
 }
 .imgCards{
-    width: 100%;
     border-radius: 10px 10px 0 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.1));
-    z-index: 1;
+}
+.h5TitleGame{
+    width: 148px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: auto;
+}
+.blokSale{
+    margin-bottom: 8px;
+}
+.sale{
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 18px;
+}
+.discount{
+    font-family: Lora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    padding: 4px;
+    border-radius: 4px 8px 3px 8px;
 }
 .slaider{
     display: flex;
@@ -130,4 +154,63 @@
 } */
 .botArrow{
     transform: rotate(180deg);
+}
+
+@media (max-width: 1050px) {
+    .promoContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1372px;
+        padding: 0 15px;
+        height: 980px;
+        margin: 0 auto;
+        color: black;
+    }
+    .blockPreorder{
+        width: 550px;
+        flex: none;
+        margin: 300px auto 70px auto;
+        /* margin-bottom: 70px;
+        margin-top: 300px; */
+        color: #fff;
+    }
+}
+@media (max-width: 705px) {
+    .blockSalesHits{
+        margin-bottom: 42px;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+    }
+    .blockSalesHitsTitle{
+        width: 170px;
+        height: 20px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 900;
+        transform: rotate(0);
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .blockCardsBig{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .blockCardsMin{
+        width: 164px;
+        margin-right: 16px;
+    }
+    .slaider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: -110px;
+        transform: rotate(270deg);
+    }
 }
